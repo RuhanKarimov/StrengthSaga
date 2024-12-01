@@ -5,15 +5,14 @@ import java.util.ArrayList;
 public class Kullanici extends Canli implements Hareketler{
     ArrayList<Item> itemler;
     ArrayList<Gorevler> gorevler;
-    int userId;
     int sifre;
+    String kullaniciAdi;
     int yas;
     int kilo;
     int para;
     int tecrubePuani;
     int mana;
     int[] itemSlotlari;
-    String kullaniciAdi;
     String[] elementYatkinligi;
 
     public Kullanici(){
